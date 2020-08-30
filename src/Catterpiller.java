@@ -1,5 +1,5 @@
 
-public class Catterpiller  implements WalkIF {
+public class Catterpiller extends Animal  implements WalkIF {
 
 	@Override
 	public void walk() {

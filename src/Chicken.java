@@ -7,7 +7,7 @@ public class Chicken extends Bird {
 	}
 	
 	@Override
-	protected void fly() {
+	public void canfly(){
 		System.out.println("Chicken cannot fly");
 	}
 	

@@ -6,18 +6,18 @@ public class Solution {
 		//A.1
 		Bird bird = new Bird();
 		bird.walk();
-		bird.fly();
+		bird.canfly();
 		bird.sing();
 		//A.2
 		Bird obj = new Chicken();
-		obj.fly();
+		obj.canfly();
 		obj.sing();
 		Bird objduck = new Duck();
-		objduck.fly();
+		objduck.canfly();
 		objduck.sing();
 		//A.3
 		Bird objrooster = new Rooster();
-		objrooster.fly();
+		objrooster.canfly();
 		objrooster.sing();
 		//A.4
 		Bird objParrotWithCat = new ParrotLivingWithCat();
@@ -47,7 +47,7 @@ public class Solution {
 		//C.1 
 		Butterfly objButterfly=new Butterfly();
 		objButterfly.canfly();
-		objButterfly.sound();
+		
 		//D.2
 		//catterpiller before metamorphosis
 		Catterpiller c1 =new Catterpiller();
@@ -55,7 +55,29 @@ public class Solution {
 		//After Metamorphosis
 		Butterfly b2=c1.transform(c1);
 		b2.canfly();
-		b2.sound();
+		
+		//E
+		
+		Animal[] animals = new Animal[]{
+				new Bird(),
+				new Duck(),
+				new Chicken(),
+				new Rooster(),
+				new Parrot(),
+				new Fishes(),
+				new Shark(),
+				new ClownFish(),
+				new Dolphins(),
+				new Parrot(),
+				new Butterfly(),
+				new Catterpiller()
+				};
+			
+		CountingAnimals objCount= new CountingAnimals(animals);
+		System.out.println("Flying Animal: " + objCount.getFlyingAnimal());
+		System.out.println("Speaking Animal: " + objCount.getSpeakingAnimal());
+		System.out.println("Swimming Animal: " + objCount.getSwimingAnimal());
+		System.out.println("Walking Animal: " + objCount.getWalkingAnimal());
 	
 	 
 		

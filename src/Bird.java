@@ -1,9 +1,12 @@
 
-public class Bird extends Animal {
-	protected void fly() {
+public class Bird extends Animal implements IFly,ISpeak {
+	@Override
+	public void canfly() {
 		System.out.println("I am flying");
 	}
-	protected void sing() {
+	@Override
+	public void sing() {
 		System.out.println("I am Singing");
 	}
+	
 }
