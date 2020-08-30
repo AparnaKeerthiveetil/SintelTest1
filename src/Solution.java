@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Solution {
 
@@ -78,6 +80,32 @@ public class Solution {
 		System.out.println("Speaking Animal: " + objCount.getSpeakingAnimal());
 		System.out.println("Swimming Animal: " + objCount.getSwimingAnimal());
 		System.out.println("Walking Animal: " + objCount.getWalkingAnimal());
+		
+		//Bonus.1
+		
+		Rooster objRooster = new Rooster();
+		   List<String> arrayList = new ArrayList<String>(){{
+			    add("English");
+		        add("Danish");
+		        add("Dutch");
+		        add("Finnish");
+		        add("French");
+		        add("German");
+		        add("Greek");
+		        add("Hebrew");
+		        add("Hungarian");
+		        add("Italian");
+		        add("Japanese");
+		        add("Portuguese");
+		        add("Russian");
+		        add("Swedish");
+		        add("Turkish");
+		        add("Hindi");
+			}}; 
+
+			for (String lang : arrayList) {
+				objRooster.sing(lang);
+			}
 	
 	 
 		
