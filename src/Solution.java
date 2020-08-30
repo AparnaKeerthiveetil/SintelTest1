@@ -48,5 +48,17 @@ public class Solution {
 		Butterfly objButterfly=new Butterfly();
 		objButterfly.canfly();
 		objButterfly.sound();
+		//D.2
+		//catterpiller before metamorphosis
+		Catterpiller c1 =new Catterpiller();
+		c1.walk();
+		//After Metamorphosis
+		Butterfly b2=c1.transform(c1);
+		b2.canfly();
+		b2.sound();
+	
+	 
+		
+		
 	}
 }
