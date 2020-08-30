@@ -28,7 +28,17 @@ public class Solution {
 		objParrotWithRooster.sing();
 		
 	    //B.1
-		Fishes objFish=new Fishes();
-		objFish.swim();
+		/*
+		 * Fishes objFish=new Fishes(); objFish.swim();
+		 */
+		
+		//B.2
+		Fishes objshark=new Shark();
+		objshark.phsicalAppearence();
+		objshark.behaviour();
+		Fishes objClownFish=new ClownFish();
+		objClownFish.phsicalAppearence();
+		objClownFish.behaviour();
+		
 	}
 }
