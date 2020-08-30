@@ -40,5 +40,10 @@ public class Solution {
 		objClownFish.phsicalAppearence();
 		objClownFish.behaviour();
 		
+		//B.3
+		Dolphins d= new Dolphins();
+		d.swim();
+		
+		
 	}
 }
