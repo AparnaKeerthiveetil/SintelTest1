@@ -15,6 +15,9 @@ public class Solution {
 		Bird objduck = new Duck();
 		objduck.fly();
 		objduck.sing();
-		
+		//A.3
+		Bird objrooster = new Rooster();
+		objrooster.fly();
+		objrooster.sing();
 	}
 }
