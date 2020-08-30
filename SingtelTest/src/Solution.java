@@ -19,5 +19,12 @@ public class Solution {
 		Bird objrooster = new Rooster();
 		objrooster.fly();
 		objrooster.sing();
+		//A.4
+		Bird objParrotWithCat = new ParrotLivingWithCat();
+		objParrotWithCat.sing();
+		Bird objParrotWithDog = new ParrotLivingWithDog();
+		objParrotWithDog.sing();
+		Bird objParrotWithRooster =new ParrotLivingWithRooster();
+		objParrotWithRooster.sing();
 	}
 }
