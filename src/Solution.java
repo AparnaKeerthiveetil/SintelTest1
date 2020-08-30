@@ -44,6 +44,9 @@ public class Solution {
 		Dolphins d= new Dolphins();
 		d.swim();
 		
-		
+		//C.1 
+		Butterfly objButterfly=new Butterfly();
+		objButterfly.canfly();
+		objButterfly.sound();
 	}
 }
